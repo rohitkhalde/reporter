@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/IzakMarais/reporter/grafana"
-	"github.com/IzakMarais/reporter/report"
 	"github.com/gorilla/mux"
+	"github.com/rohitkhalde/reporter/grafana"
+	"github.com/rohitkhalde/reporter/report"
 )
 
 var proto = flag.String("proto", "https://", "Grafana Protocol. Change to 'https://' if Grafana is using https. Reporter will still serve http.")
